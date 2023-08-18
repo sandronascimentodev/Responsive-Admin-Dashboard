@@ -166,7 +166,6 @@ aside .close {
 
 /*----------------- SIDEBAR ------------------*/
 aside .sidebar {
-    background: white;
     display: flex;
     flex-direction: column;
     height: 86vh;
@@ -569,7 +568,7 @@ main .recent-orders a {
         width: 94%;
         position: absolute;
         left: 50%;
-        transform: translateX(-50);
+        transform: translateX(-50%);
         margin: 2rem 0 0 8.8rem;
     }
 
@@ -577,6 +576,7 @@ main .recent-orders a {
         width: 84vw;
     }
 
+    main table thead tr th:last-child,
     main table thead tr th:first-child {
         display: none;
     }
